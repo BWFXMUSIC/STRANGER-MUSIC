@@ -81,7 +81,7 @@ def stream_markup_timer(_, chat_id, played, dur):
         [
             InlineKeyboardButton(text="💮︎ ᴄᴘᴀɴɴᴇʟ", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(
-                text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=SUPPORT_CHAT,
+                text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", rl=f"https://t.me/Cw_DPz_world_01"
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -112,7 +112,7 @@ def stream_markup(_, chat_id):
         [
             InlineKeyboardButton(text="💮︎ ᴄᴘᴀɴɴᴇʟ", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(
-                text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=SUPPORT_CHAT,
+                text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", rl=f"https://t.me/Cw_DPz_world_01"
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
